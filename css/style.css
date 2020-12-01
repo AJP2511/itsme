@@ -4,6 +4,7 @@
     background-color: #3D413F;
 }
 
+
 h1, li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -26,6 +27,7 @@ header {
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
+    height: 100%;
 }
 
 .nav_links li a {
