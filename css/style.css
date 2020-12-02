@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: #010440;
-  color: #F2E74B;
+  color: #ffffff;
   flex-wrap: nowrap;
 }
 
@@ -52,18 +52,18 @@ header a{
   text-decoration: none;
   padding: 10px;
   font-size: 16px;
-  color: rgb(242, 231, 75,0.70);
+  color: rgba(247, 247, 247, 0.7);
   transition: all 0.3s ease 0s;
 }
 
 header a:hover {
-  color: rgb(242, 231, 75,1);
+  color: rgb(252, 252, 252);
 }
 
 header h1{
   letter-spacing: 5px;
   padding: 15px;
-  border: 2px solid red;
+  border: 2px solid #040FD9ed;
   border-radius: 20px;
   box-shadow: black 5px 5px;
 }
@@ -71,7 +71,7 @@ header h1{
 .container-principal {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10vh 60vh 20vh 10vh;
+  grid-template-rows: 10vh 50vh 30vh 10vh;
   grid-template-areas: "h h" "m a" "c c" "f f";
 
 }
@@ -102,5 +102,36 @@ header h1{
 .quem-sou-eu {
   height: 100%;
   width: 100%;
-  overflow-y: auto;  
+}
+
+/* configuração aside */
+
+.metas {
+  height: 100%;
+  width: 100%;
+}
+
+/* confifuração foto certificado */
+
+.certificado {
+  text-align: center;
+}
+
+.certificado img {
+  width: 400px;
+}
+
+.rodape-foto {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .quem-sou-eu {
+    overflow-y: scroll;
+  }
+
+  .metas {
+    overflow-y: scroll;
+  }
+
 }
