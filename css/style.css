@@ -128,7 +128,40 @@ header h1{
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+/* configuração do hamburger */
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+.hamburger div {
+  width: 35px;
+  height: 5px;
+  background: #fff;
+  margin: 6px 0;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu{
+    display: none;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
   .quem-sou-eu {
     overflow-y: scroll;
   }
