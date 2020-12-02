@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #010440;
   color: #F2E74B;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 h1 {
@@ -38,6 +38,7 @@ footer {
 
 .convite {
   grid-area: c;
+  padding: 15px;
 }
 
 /* Configuraçãoes do header */
@@ -99,6 +100,7 @@ header h1{
 
 
 .quem-sou-eu {
-  height: 40%;
-  width: 100%;  
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;  
 }
