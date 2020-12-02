@@ -2,6 +2,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: #010440;
   color: #F2E74B;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: bold;
 }
 
 /* Configurações do grid */
@@ -16,14 +22,22 @@ header {
 
 main {
   grid-area: m;
+  line-height: 1.6;
+  padding: 15px;
 }
 
 aside {
   grid-area: a;
+  line-height: 1.6;
+  padding: 15px;
 }
 
 footer {
   grid-area: f;
+}
+
+.convite {
+  grid-area: c;
 }
 
 /* Configuraçãoes do header */
@@ -47,16 +61,17 @@ header a:hover {
 
 header h1{
   letter-spacing: 5px;
-  font-size: 23px;
+  padding: 15px;
+  border: 2px solid red;
+  border-radius: 20px;
+  box-shadow: black 5px 5px;
 }
-
-
 
 .container-principal {
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: 10vh 80vh 10vh;
-  grid-template-areas: "h h" "m a" "f f";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10vh 60vh 20vh 10vh;
+  grid-template-areas: "h h" "m a" "c c" "f f";
 
 }
 
@@ -82,3 +97,8 @@ header h1{
 
 /* configuração main */
 
+
+.quem-sou-eu {
+  height: 40%;
+  width: 100%;  
+}
