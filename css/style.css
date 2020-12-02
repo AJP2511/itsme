@@ -113,14 +113,17 @@ header h1{
 
 /* confifuração foto certificado */
 
-.certificado {
+.convite {
   text-align: center;
+  padding: 20px;
 }
 
-.certificado img {
-  width: 400px;
+.certificado img{
+  max-width: 60%;
+  max-height: 60%;
+  width: auto;
+  height: auto;
 }
-
 .rodape-foto {
   text-align: center;
 }
@@ -132,6 +135,13 @@ header h1{
 
   .metas {
     overflow-y: scroll;
+  }
+
+  .certificado img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
   }
 
 }
