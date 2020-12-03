@@ -9,9 +9,6 @@ body {
 
 /* Configuração do cabeçalho */
 
-header {
-  
-}
 
 .nav-ul {
   display: flex;
@@ -129,4 +126,3 @@ header {
     height: auto;
   }
   }
-}
