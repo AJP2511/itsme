@@ -1,10 +1,16 @@
+/* configurações gerais de todos os arquivos */
+
 body {
   font-family: 'Montserrat', sans-serif;
   background: #010440;
   color: #ffffff;
   flex-wrap: nowrap;
   line-height: 1.6;
-  
+}
+
+body h1 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Configuração do cabeçalho */
@@ -72,15 +78,11 @@ body {
   flex-direction: column;
   max-width: 960px;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .principal div, p, h1 {
   margin: 15px
-}
-
-.principal h1 {
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .certificado, .rodape-foto {
@@ -95,9 +97,9 @@ body {
 }
 
 .logo-social {
-  width: 25px;
-  height: 25px;
-  margin: 15px 5px 15px 5px;
+  width: 40px;
+  height: 40px;
+  margin: 15px 15px 15px 5px;
 }
 
 .copy {
@@ -105,34 +107,47 @@ body {
   font-size: 12px;
 }
 
+/* Configuração do main pagina cursos  */
+
+.principal-cursos {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.principal-cursos div, p, h1{
+  margin: 15px;
+}
+
+
 /* Configuração do script que faz o hamburguer menu */
 
 @media screen and (max-width: 600px) {
 
-  .menu {
-    display: none;
-  }
+    .menu {
+      display: none;
+    }
 
-  .menu-item {
-    margin: 5px 0 0 0;
-    padding: 2px;
-    text-align: end;
-  }
+    .menu-item {
+      margin: 5px 0 0 0;
+      padding: 2px;
+      text-align: end;
+    }
 
-  .menu.show {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-  }
+    .menu.show {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
 
-  .hamburger {
-    display: block;
-  }
+    .hamburger {
+      display: block;
+    }
 
-  .certificado img {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-  }
+    .certificado img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+    }
   }
