@@ -53,8 +53,14 @@ body {
 
 .menu-item a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255, 1);
   padding: 15px;
+  transition: all 0.3s ease 0s;
+}
+
+.menu-item a:hover {
+  color:rgb(255, 255, 255, 0.65);
+  text-decoration: underline;
 }
 
 
