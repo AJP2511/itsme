@@ -119,6 +119,20 @@ body h1 {
   margin: 15px;
 }
 
+.cursos-online {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cursos-online a{
+  display: inline-block;
+}
+
+.cursos-online img {
+  margin: 15px
+}
+
 
 /* Configuração do script que faz o hamburguer menu */
 
