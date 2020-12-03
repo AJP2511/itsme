@@ -58,7 +58,7 @@ body {
 }
 
 
-/* Configuração do main */
+/* Configuração do main pagina index */
 
 .principal {
   display: flex;
@@ -96,6 +96,8 @@ body {
   text-align: center;
   font-size: 12px;
 }
+
+/* Configuração do script que faz o hamburguer menu */
 
 @media screen and (max-width: 600px) {
 
