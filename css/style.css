@@ -259,4 +259,7 @@ h1 {
     .foto {
         justify-content: center;
     }
+    .cursos-online {
+        flex-direction: column;
+    }
 }
