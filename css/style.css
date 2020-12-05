@@ -163,11 +163,40 @@ body h1 {
 
 .projeto1 a, .projeto2 a, .projeto3 a {
   margin: 15px;
-  color: #fff;
+  color: rgb(255, 255, 255, 0.7);
+  transition: 0.3s ease;
+}
+
+.projeto1 a:hover, .projeto2 a:hover, .projeto3 a:hover {
+  margin: 15px;
+  color: rgb(255, 255, 255, 1);
 }
 
 .titulo-projeto2, .titulo-projeto3 {
   border-top: 2px solid rgb(255, 255, 255, 0.7);
+}
+
+/* Configuração da página Contato */
+
+.contato-principal {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wpp-caixa {
+  border-top: 2px solid rgb(255, 255, 255, 0.7);
+}
+
+.whatsapp-conteudo a{
+  color: rgb(255, 255, 255, 0.7);
+  transition: 0.3s ease;
+}
+
+.whatsapp-conteudo a:hover{
+  color: rgb(255, 255, 255, 1);
 }
 
 /* Configuração do script que faz o hamburguer menu */
