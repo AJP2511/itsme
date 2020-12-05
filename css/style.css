@@ -81,10 +81,24 @@ body h1 {
     text-align: justify;
 }
 
-.principal div,
-p,
-h1 {
+.quem-sou-eu,
+.metas,
+.convite {
     margin: 15px
+}
+
+.foto {
+    margin: 0 0 0 15px;
+    display: flex;
+}
+
+.texto {
+    max-width: 660px;
+}
+
+.quem-sou-eu {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .certificado,
@@ -242,5 +256,8 @@ h1 {
         max-height: 100%;
         width: auto;
         height: auto;
+    }
+    .foto {
+        justify-content: center;
     }
 }
