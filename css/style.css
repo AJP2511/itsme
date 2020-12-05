@@ -1,232 +1,246 @@
 /* configurações gerais de todos os arquivos */
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  background: #010440;
-  color: #ffffff;
-  flex-wrap: nowrap;
-  line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    background: #010440;
+    color: #ffffff;
+    flex-wrap: nowrap;
+    line-height: 1.6;
 }
 
 body h1 {
-  font-size: 20px;
-  font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
+
 
 /* Configuração do cabeçalho */
 
-
 .nav-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
 }
 
 .nav-ul h1 {
-  font-size: 23px;
-  border: 2px solid #040DBF;
-  padding: 10px;
-  border-radius: 30px;
-  box-shadow: 5px 5px black;
-  letter-spacing: 5px;
+    font-size: 23px;
+    border: 2px solid #040DBF;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px black;
+    letter-spacing: 5px;
 }
 
 .hamburger {
-  background: transparent;
-  border: 0;
-  cursor: pointer;
-  display: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    display: none;
 }
 
 .hamburger:focus {
-  outline: none;
+    outline: none;
 }
 
 .hamburger div {
-  width: 35px;
-  height: 5px;
-  background: #fff;
-  margin: 6px 0;
-  border-radius: 40px;
+    width: 35px;
+    height: 5px;
+    background: #fff;
+    margin: 6px 0;
+    border-radius: 40px;
 }
 
 .menu-item {
-  display: inline-block;
-  margin: 0 10px 0 0;
+    display: inline-block;
+    margin: 0 10px 0 0;
 }
 
 .menu-item a {
-  text-decoration: none;
-  color: rgb(255, 255, 255, 1);
-  padding: 15px;
-  transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: rgb(255, 255, 255, 1);
+    padding: 15px;
+    transition: all 0.3s ease 0s;
 }
 
 .menu-item a:hover {
-  color:rgb(255, 255, 255, 0.65);
-  text-decoration: underline;
+    color: rgb(255, 255, 255, 0.65);
+    text-decoration: underline;
 }
 
 
 /* Configuração do main pagina index */
 
 .principal {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  max-width: 960px;
-  margin: 0 auto;
-  text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
-.principal div, p, h1 {
-  margin: 15px
+.principal div,
+p,
+h1 {
+    margin: 15px
 }
 
-.certificado, .rodape-foto {
-  text-align: center;
+.certificado,
+.rodape-foto {
+    text-align: center;
 }
+
 
 /* Configuração do Footer */
 
 .social-links {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .logo-social {
-  width: 40px;
-  height: 40px;
-  margin: 15px 15px 15px 5px;
+    width: 40px;
+    height: 40px;
+    margin: 15px 15px 15px 5px;
 }
 
 .copy {
-  text-align: center;
-  font-size: 12px;
+    text-align: center;
+    font-size: 12px;
 }
+
 
 /* Configuração do main pagina cursos  */
 
 .principal-cursos {
-  max-width: 960px;
-  margin: 0 auto;
-  text-align: justify;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
-.principal-cursos div, p, h1{
-  margin: 15px;
+.principal-cursos div,
+p,
+h1 {
+    margin: 15px;
 }
 
 .cursos-online {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
-.cursos-online a{
-  display: inline-block;
+.cursos-online a {
+    display: inline-block;
 }
 
 .cursos-online img {
-  margin: 15px
+    margin: 15px
 }
 
-.curso1:hover, .curso2:hover, .curso3:hover {
-  border: 2px solid #fff;
-  border-radius: 15px;
+.curso1:hover,
+.curso2:hover,
+.curso3:hover {
+    border: 2px solid #fff;
+    border-radius: 15px;
 }
 
-.curso1:active, .curso2:active, .curso3:active {
-  border: 2px solid rgb(28, 240, 91)
+.curso1:active,
+.curso2:active,
+.curso3:active {
+    border: 2px solid rgb(28, 240, 91)
 }
 
 .legenda-fotos-cursos {
-  display:flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .legenda-fotos-cursos p {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 
 /* Configuração da página projetos */
 
 .projetos-principal {
-  max-width: 960px;
-  text-align: justify;
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-} 
-
-.projeto1 a, .projeto2 a, .projeto3 a {
-  margin: 15px;
-  color: rgb(255, 255, 255, 0.7);
-  transition: 0.3s ease;
+    max-width: 960px;
+    text-align: justify;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
 }
 
-.projeto1 a:hover, .projeto2 a:hover, .projeto3 a:hover {
-  margin: 15px;
-  color: rgb(255, 255, 255, 1);
+.projeto1 a,
+.projeto2 a,
+.projeto3 a {
+    margin: 15px;
+    color: rgb(255, 255, 255, 0.7);
+    transition: 0.3s ease;
 }
 
-.titulo-projeto2, .titulo-projeto3 {
-  border-top: 2px solid rgb(255, 255, 255, 0.7);
+.projeto1 a:hover,
+.projeto2 a:hover,
+.projeto3 a:hover {
+    margin: 15px;
+    color: rgb(255, 255, 255, 1);
 }
+
+.titulo-projeto2,
+.titulo-projeto3 {
+    border-top: 2px solid rgb(255, 255, 255, 0.7);
+}
+
 
 /* Configuração da página Contato */
 
 .contato-principal {
-  max-width: 960px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .wpp-caixa {
-  border-top: 2px solid rgb(255, 255, 255, 0.7);
+    border-top: 2px solid rgb(255, 255, 255, 0.7);
 }
 
-.whatsapp-conteudo a{
-  color: rgb(255, 255, 255, 0.7);
-  transition: 0.3s ease;
+.whatsapp-conteudo a {
+    color: rgb(255, 255, 255, 0.7);
+    transition: 0.3s ease;
 }
 
-.whatsapp-conteudo a:hover{
-  color: rgb(255, 255, 255, 1);
+.whatsapp-conteudo a:hover {
+    color: rgb(255, 255, 255, 1);
 }
+
 
 /* Configuração do script que faz o hamburguer menu */
 
 @media screen and (max-width: 600px) {
-
     .menu {
-      display: none;
+        display: none;
     }
-
     .menu-item {
-      margin: 5px 0 0 0;
-      padding: 2px;
-      text-align: end;
+        margin: 5px 0 0 0;
+        padding: 2px;
+        text-align: end;
     }
-
     .menu.show {
-      display: flex;
-      width: 100%;
-      flex-direction: column;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
     }
-
     .hamburger {
-      display: block;
+        display: block;
     }
-
     .certificado img {
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
     }
-  }
+}
