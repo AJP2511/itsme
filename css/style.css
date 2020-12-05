@@ -90,6 +90,7 @@ body h1 {
 .foto {
     margin: 0 0 0 15px;
     display: flex;
+    box-shadow: 4px 4px black;
 }
 
 .texto {
