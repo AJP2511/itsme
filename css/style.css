@@ -121,8 +121,8 @@ body h1 {
 
 .cursos-online {
   display: flex;
-  flex-direction: column;
   text-align: center;
+  justify-content: center;
 }
 
 .cursos-online a{
@@ -133,6 +133,42 @@ body h1 {
   margin: 15px
 }
 
+.curso1:hover, .curso2:hover, .curso3:hover {
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+.curso1:active, .curso2:active, .curso3:active {
+  border: 2px solid rgb(28, 240, 91)
+}
+
+.legenda-fotos-cursos {
+  display:flex;
+  justify-content: center;
+}
+
+.legenda-fotos-cursos p {
+  font-weight: bold;
+}
+
+/* Configuração da página projetos */
+
+.projetos-principal {
+  max-width: 960px;
+  text-align: justify;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+} 
+
+.projeto1 a, .projeto2 a, .projeto3 a {
+  margin: 15px;
+  color: #fff;
+}
+
+.titulo-projeto2, .titulo-projeto3 {
+  border-top: 2px solid rgb(255, 255, 255, 0.7);
+}
 
 /* Configuração do script que faz o hamburguer menu */
 
