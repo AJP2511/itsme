@@ -225,6 +225,7 @@ h1 {
 .whatsapp-conteudo a {
     color: rgb(255, 255, 255, 0.7);
     transition: 0.3s ease;
+    text-align: justify;
 }
 
 .whatsapp-conteudo a:hover {
