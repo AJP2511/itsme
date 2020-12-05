@@ -190,7 +190,6 @@ h1 {
 .projeto1 a,
 .projeto2 a,
 .projeto3 a {
-    margin: 15px;
     color: rgb(255, 255, 255, 0.7);
     transition: 0.3s ease;
 }
@@ -198,7 +197,6 @@ h1 {
 .projeto1 a:hover,
 .projeto2 a:hover,
 .projeto3 a:hover {
-    margin: 15px;
     color: rgb(255, 255, 255, 1);
 }
 
@@ -225,7 +223,6 @@ h1 {
 .whatsapp-conteudo a {
     color: rgb(255, 255, 255, 0.7);
     transition: 0.3s ease;
-    text-align: justify;
 }
 
 .whatsapp-conteudo a:hover {
